@@ -1,0 +1,7 @@
+1. Install Terraform
+2. Configure AWS CLI
+3. Create S3 bucket + DynamoDB table
+4. Run terraform init
+5. Run terraform plan
+6. Run terraform apply
+7. Verify resources in AWS console
