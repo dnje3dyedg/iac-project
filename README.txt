@@ -1,20 +1,20 @@
 # IaC Project - AWS Infrastructure using Terraform
 
-## Overview
+ Overview
 This project provisions cloud infrastructure using Terraform.
 
-## Resources Created
+ Resources Created
 - VPC with 2 subnets (multi-AZ)
 - EC2 instance
 - RDS MySQL database
 - Security Groups
 
-## Tools Used
+ Tools Used
 - Terraform
 - AWS
 - OPA (Policy-as-Code)
 
-## Steps to Run
+ Steps to Run
 
 1. Configure AWS:
    aws configure
@@ -28,13 +28,12 @@ This project provisions cloud infrastructure using Terraform.
 4. Apply:
    terraform apply
 
-## Architecture
+ Architecture
 User → EC2 → RDS (inside VPC)
 
-## Features
+ Features
 - Modular structure
 - Remote state (S3 + DynamoDB)
 - Policy enforcement (OPA)
 
-## Author
-Your Name
+ 
